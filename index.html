@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
+	</head>
+	<body>
+		<div class="container main">
+		   <div class="content">
+		      <div id="large-header" class="large-header">
+		         <canvas id="animate_background"></canvas>
+		         <h1 class="main-title"><span class="thin">AKASH</span> SRINAGESH</h1>
+		         <span class="element description thin"></span>
+		         <div class="social">
+				  <a href="https://www.facebook.com/akash.srinagesh"><span>Facebook</span></a>
+				  <a href="https://twitter.com/pyromanic221"><span>Twitter</span></a>
+				  <a href="#"><span>Resume</span></a>
+				  <a href="https://github.com/asrinagesh"><span>Github</span></a>
+				</div>
+		      </div>
+		   </div>
+		</div>
+		<script src="js/TweenLite.min.js"></script>
+		<script src="js/EasePack.min.js"></script>
+		<script src="js/background.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/typed.js"></script>
+		<script>
+		  $(function(){
+		      $(".element").typed({
+		        strings: ["Programmer.^1000", "Student.^1000", "Creative.^1000"],
+		        typeSpeed: 10,
+		        loop: true,
+            	contentType: 'html'
+		      });
+		  });
+		</script>
+	</body>
+</html>
